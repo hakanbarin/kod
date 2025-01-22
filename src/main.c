@@ -7,7 +7,7 @@
 #include <unistd.h>
 
 int main(){
-
+    char deneme = "deneme";
     pid_t ID = fork();
     if(ID){
         printf("child\n");
